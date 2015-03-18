@@ -1,0 +1,54 @@
+{{ code_block('setup') }}
+
+	<!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>{{ theme.storeTitle }}</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="Description" content="{{ page.description }}"/>
+	<meta name="Keywords" content="{{ page.keywords }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="{{ theme.faviconImage.thumbnail('auto', 'auto') }}" type="image/png">
+    <link rel="icon" href="{{ theme.faviconImage.thumbnail('auto', 'auto') }}" type="image/png">
+    
+    <link rel="stylesheet" type="text/css" href="/cms/core.css">
+
+    
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{'css/combined.min.css'|theme_resource }}">
+    <link rel="stylesheet" href="{{ 'css/custom.css'|theme_resource }}">
+
+    <!-- THEME CUSTOMiZATION OPTIONS -->
+    <style type="text/css">
+        .navbar-default .navbar-nav > li > a{
+            color: {{ theme.navbarLinkColor }};
+        }
+        .navbar{
+          background: {{ theme.navbarBackgroundColor }};
+        }
+        .main-footer{
+            background: {{ theme.mainFooterColor }};
+        }
+        #intro-image{
+            background: url( {{ theme.homeImage.thumbnail('auto','auto') }} )no-repeat top center;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+        }
+        #layer{
+          background: {{ theme.homeGradientOne }}; /* Old browsers */
+          background: -moz-linear-gradient(-45deg,  {{ theme.homeGradientOne }} 0%, #e0a979 100%); /* FF3.6+ */
+          background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,{{ theme.homeGradientOne }}), color-stop(100%,{{ theme.homeGradientTwo }})); /* Chrome,Safari4+ */
+          background: -webkit-linear-gradient(-45deg,  {{ theme.homeGradientOne }} 0%,{{ theme.homeGradientTwo }} 100%); /* Chrome10+,Safari5.1+ */
+          background: -o-linear-gradient(-45deg,  {{ theme.homeGradientOne }} 0%,{{ theme.homeGradientTwo }} 100%); /* Opera 11.10+ */
+          background: -ms-linear-gradient(-45deg,  {{ theme.homeGradientOne }} 0%,{{ theme.homeGradientTwo }} 100%); /* IE10+ */
+          background: linear-gradient(135deg,  {{ theme.homeGradientOne }} 0%,{{ theme.homeGradientTwo }} 100%); /* W3C */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='{{ theme.homeGradientOne }}', endColorstr='{{ theme.homeGradientTwo }}',GradientType=1 );
+        }
+    </style>
+    

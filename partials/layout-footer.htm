@@ -1,0 +1,39 @@
+{{ code_block('setup') }}
+
+
+    
+    <div class="jumbotron" id="main-footer">
+        <div class="row content">
+            <div class="col-md-12">
+                
+<!--             {% tree categories %}
+                <ul class="list-unstyled col-md-4">
+                    <li class="title">SHOP</li>
+                    <a href="{{ site_url('shop') }}"><li>All</li></a>
+                {% for category in tree.items %}
+                    <a href="/category/{{ category.fullUrlName }}"><li>{{ category.name }}</li></a>
+                {% endfor %}
+                </ul>
+            {% endtree %} -->
+
+                
+                <ul class="list-unstyled col-md-12">
+                    <a href="{{ site_url('login') }}"><li>Login</li></a>
+                    <a href="{{ site_url('about') }}"><li>About</li></a>
+                    {% if customer %}
+                    <a href="{{ site_url('profile') }}"><li>Profile</li></a>
+                    {% else %}
+                    {% endif %}
+                    <a href="{{ site_url('orders') }}"><li>Order History</li></a><br>
+                    <a href="{{ theme.socialFacebookUrl }}"><li><i class="fa fa-twitter"></i></li></a>
+                    <a href="{{ theme.socialTwitterUrl }}"><li><i class="fa fa-facebook"></i></li></a>
+                    <a href="{{ theme.socialInstagramUrl }}"><li><i class="fa fa-instagram"></i></li></a>
+                </ul>
+
+            <div class="col-md-12" id="foot-info">
+                <p class="text-center">This is TANTO Free Theme
+                    Powered by <a href="https://lemonstand.com/" target="_blank">LemonStand</a><br>
+                </p>
+            </div>
+        </div>
+    </div>
