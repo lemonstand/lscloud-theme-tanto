@@ -1,16 +1,16 @@
 ---
 name: 'TANTO'
-description: 'A minimalistic product theme'
+description: 'A minimal  theme'
 author: 'Daniel Park (@D_Hanul_Park)'
 website: 'http://dparkd.com'
 engine: twig
 404: '404'
 customFields:
     storeTitle: {type:text, title:'Title of your Store', default:'Tanto'}
-    faviconImage: {type:image, title:'Favicon Image (Image you see on the chrome)', default:'@img/icon.png'}
+    faviconImage: {type:image, title:'Favicon Image (image you see on the web browser)', default:'@img/icon.png'}
+    logoImage: { type: image, title: 'Global: Logo Image', default: '@/img/logo.png'}
     navbarBackgroundColor: { type:color, title:'Global: Navbar Background Color', default:'white'}
     navbarLinkColor: { type:color, title:'Global: Navbar Link Color', default:'black'}
-    logoImage: { type: image, title: 'Global: Logo Image', default: '@/img/logo.png'}
     homeTitle: { type: text, title: 'Home: Introduction Title', defaut: 'TANTO FURNITURE'}
     homeBody: { type: text, title: 'Home: Introduction Body Text', default: 'Our aim is to give homes and offices minimal and functional furniture. We spend more than half of our day indoors.'}
     homeButtonTitle: { type: text, title: 'Home: Introduction Button Title', default: 'Shop our Collection'}
