@@ -9,8 +9,8 @@ customFields:
     storeTitle: {type:text, title:'Title of your Store', default:'Tanto'}
     faviconImage: {type:image, title:'Favicon Image (image you see on the web browser)', default:'@img/icon.png'}
     logoImage: { type: image, title: 'Global: Logo Image', default: '@/img/logo.png'}
-    navbarBackgroundColor: { type:color, title:'Global: Navbar Background Color', default:'white'}
-    navbarLinkColor: { type:color, title:'Global: Navbar Link Color', default:'black'}
+    navbarBackgroundColor: { type: color, title:'Global: Navbar Background Color', default:'white'}
+    navbarLinkColor: { type: color, title:'Global: Navbar Link Color', default:'black'}
     homeTitle: { type: text, title: 'Home: Introduction Title', defaut: 'TANTO FURNITURE'}
     homeBody: { type: text, title: 'Home: Introduction Body Text', default: 'Our aim is to give homes and offices minimal and functional furniture. We spend more than half of our day indoors.'}
     homeButtonTitle: { type: text, title: 'Home: Introduction Button Title', default: 'Shop our Collection'}
@@ -18,16 +18,13 @@ customFields:
     homeGradientOne: { type: color, title: 'Home: Gradient Color Left', default: '#9e6e69'}
     homeGradientTwo: { type: color, title: 'Home: Gradient Color Right', default: '#e0a979'}
     homeFeature: { type: text, title: 'Home: Feature Items Title', default: 'FEATURE ITEMS'}
-    homeFeatureDescription: { type:text, title: 'Home: Feature Items Description', default: 'The best picks by our designers'}
-    homeContact: { type:text, title: 'Home: Contact Title', default: 'CONTACT TANTO'}
-    homeContactNumber: {type: text, title: 'Home: Contact Phone Number', default: '829-192-9382'}
-    homeContactEmail: {type: textt, title: 'Home: Contact Email Address', default: 'support@TANTO.com'}
-    homeContactAddress: {type:text, title: 'Home: Contact Address', default: '9203 Pender St, Vancouver BC, J2K 2J2'}
+    homeFeatureDescription: { type: text, title: 'Home: Feature Items Description', default: 'The best picks by our designers'}
+    homeContact: { type: text, title: 'Home: Contact Title', default: 'CONTACT TANTO'}
+    homeContactNumber: { type: text, title: 'Home: Contact Phone Number', default: '829-192-9382'}
+    homeContactEmail: { type: text, title: 'Home: Contact Email Address', default: 'support@TANTO.com'}
+    homeContactAddress: { type: text, title: 'Home: Contact Address', default: '9203 Pender St, Vancouver BC, J2K 2J2'}
     socialFacebookUrl: { type: text, title: 'Global: Facebook URL', default: 'http://facebook.com/lemonstand' }
     socialTwitterUrl: { type: text, title: 'Global: Twitter URL', default: 'http://twitter.com/D_Hanul_Park' }
     socialInstagramUrl: { type: text, title: 'Global: Instagram URL', default: 'http://instagram.com' }
-    shopItemsPerPage: { type:text, title:'Shop: Number of products displayed per page.', default:'15'}
+    shopItemsPerPage: { type: text, title:'Shop: Number of products displayed per page.', default:'15'}
 ---
-
-
-
