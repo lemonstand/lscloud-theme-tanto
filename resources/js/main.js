@@ -122,6 +122,7 @@ $(window).on("hashchange", window, function(e) {
     
     // mirror toggle button
     $(window).on('onAjaxAfterUpdate', function() {
+      $('html, body').animate({ scrollTop: 0 }, 0);
       if ($('.btn-form-mirror').length && sessionStorage.toggleMirror == 'off') {
         $('.btn-form-mirror').data('toggle-mirror', 'off').find('.fa').css('visibility', 'hidden');
         $('#shipping-info').addClass('in');
