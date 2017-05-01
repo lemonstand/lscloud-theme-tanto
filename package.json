@@ -1,0 +1,29 @@
+{
+  "name": "tanto",
+  "version": "1.0.0",
+  "description": "The Tanto theme was inspired by a class of Japanese swords, also known as Tanto blades. While focusing on large images, this theme gets straight to the point, like the sharp Tanto blade. Versatility is the key in this theme. When customized, no two Tanto themes will look alike. Add in or take out pieces to create your own unique look.",
+  "main": "index.js",
+  "lemonstand" : {
+    "code":"tanto",
+    "type": "theme",
+    "options": "options.json",
+    "demo" : "https//tanto.lemonstand.com",
+    "screenshot" : {
+      "small":"https://raw.githubusercontent.com/lemonstand/lemonstand_tanto_repository/master/resources/screenshots/tiny-square.png",
+      "large":"https://raw.githubusercontent.com/lemonstand/lemonstand_tanto_repository/master/resources/screenshots/large-square.png"
+    }
+  },  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonstand/lscloud-theme-tanto.git"
+  },
+  "author": "Bruce Alderson <bruce@lemonstand.com> (http://lemonstand.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemonstand/lscloud-theme-tanto/issues"
+  },
+  "homepage": "https://github.com/lemonstand/lscloud-theme-tanto#readme"
+}
