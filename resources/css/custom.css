@@ -47,6 +47,7 @@
     border: 1px solid #DDD;
     font-family: inherit;
     box-shadow: none;
+    border-radius: 0;
 }
 .ls-card-form .card-form-input:focus {
     border-color: black;
