@@ -8,11 +8,11 @@
 }
 .card-table {
     font-size: 15px;
-    background-color: #E7E7E7;
+    background-color: #DADFE1;
 }
 .card-table th {
     padding: 10px;
-    color: #3A3D3F;
+    color: #363636;
 }
 .card-table a,
 .card-table a:hover,
@@ -27,28 +27,20 @@
 }
 .ls-card-form .submit-button,
 .ls-card-form .delete-button {
-    border-radius: 40px;
-    background: #00bbde;
-    border: none;
-    border: 2px solid #00bbde;
-    color: white;
-    margin-top: 20px;
-    font-size: 1.2em;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    padding: 15px;
-    font-size: 1em;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s;
-    outline: none;
+    border-radius:0px;
+      border:1px solid rgba(0,0,0,0.4);
+      background:none;
+      color:black;
+      margin-top:10px;
+      font-size:1.2em;
+      font-weight:400;
+      letter-spacing:0.1em;
+      font-size:1em;
 }
 .ls-card-form .submit-button:hover,
 .ls-card-form .delete-button:hover {
-    background: white;
-    color: #00bbde;
-    border: 2px solid #00bbde;
+    background:#aaa;
+    color:#333;
 }
 .ls-card-form .card-form-input {
     background-color: #FFF;
