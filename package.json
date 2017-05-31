@@ -7,7 +7,7 @@
     "code":"tanto",
     "type": "theme",
     "options": "options.json",
-    "demo" : "https//tanto.lemonstand.com",
+    "demo" : "https://tanto.lemonstand.com",
     "screenshots" : {
       "small":"https://raw.githubusercontent.com/lemonstand/lscloud-theme-tanto/master/resources/screenshots/tiny-square.png",
       "large":"https://raw.githubusercontent.com/lemonstand/lscloud-theme-tanto/master/resources/screenshots/large-square.png"
