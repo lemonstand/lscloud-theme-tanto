@@ -2,6 +2,7 @@
   "name": "Tanto",
   "version": "1.0.0",
   "description": "The Tanto theme was inspired by a class of Japanese swords, also known as Tanto blades. While focusing on large images, this theme gets straight to the point, like the sharp Tanto blade. Versatility is the key in this theme. When customized, no two Tanto themes will look alike. Add in or take out pieces to create your own unique look.",
+  "excerpt": "Tanto is a responsive theme that gets straight to the point, while highlighting large images throughout.",
   "main": "index.js",
   "lemonstand" : {
     "code":"tanto",
